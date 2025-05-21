@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            ScreenSearch()
+            BarDarkMode(colorScheme: .dark, isDarkModeActive: false)
         }
         .padding()
     }
